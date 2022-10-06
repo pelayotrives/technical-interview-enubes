@@ -1,4 +1,4 @@
-# Technical interview for Ufounders
+# Technical interview for eNubes
 
 This project was created by [Pelayo Trives](https://www.linkedin.com/in/pelayo-trives-pozuelo/).
 
