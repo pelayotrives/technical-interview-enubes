@@ -24,8 +24,6 @@ export default function Navigation() {
               <Nav className="me-right">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/catalogo">Catálogo</Nav.Link>
-                <Nav.Link href="/">Quiénes somos</Nav.Link>
-                <Nav.Link href="/">Contacto</Nav.Link>
               </Nav>
             </Container>
           </Navbar>

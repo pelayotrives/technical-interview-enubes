@@ -1,1 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.Home {
+  background-color: #f8f8f8;
+}
+
+.Catalogo {
+  background-color: #f8f8f8;
+}
+
+.container-image {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95)),
+    url("../src/assets/background_forest.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 25em;
+}
+
+.container-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 85%;
+  height: 25em;
+  margin: 0 auto;
+  color: white;
+}
+
+.container-text h1 {
+  margin: 0.5em 0em;
+  font-weight: 600;
+  color: #ff6200;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.cards-intro h2 {
+  color: #ff6200;
+  font-weight: 600;
+}
+
+.cards-intro {
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+  padding: 2em;
+}
+
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.button-cta {
+  margin: 0.25em 0.5em;
+  border: none;
+}
+
+.cards-images h2 {
+  color: #ff6200;
+  font-weight: 600;
+}
+
+.cards-images {
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+  padding: 2em;
+}
+
+.carousel {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  height: 350px;
+}
+.carousel-item img {
+  height: 350px;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.columns-text {
+  width: 74%;
+  margin: 0 auto;
+}
+
+.column-right {
+  float: right;
+  width: 50%;
+}
+
+.column-left {
+  display: inline-block;
+  width: 50%;
+}
+
+.columns-text {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.container-footer {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95)),
+    url("../src/assets/background_mosaic.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 25em;
+}
+
+.container-info-footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 85%;
+  height: 25em;
+  margin: 0 auto;
+  color: white;
+}
+
+.container-text h1 {
+  margin: 0.5em 0em;
+  font-weight: 600;
+  color: #ff6200;
+}
+
+.button-footer-cta {
+  margin: 0.25em 0.5em;
+  border: none;
+}
+
+.footer-rows {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+}
+
+.footer-bottom {
+  background-color: white;
+}
+
+.footer-first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-first-row a {
+  text-decoration: none;
+  font-size: 0.75em;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-first-row a:hover {
+  color: gray;
+}
+
+.footer-second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  margin: 1em 0em;
+}
+
+.footer-second-row a {
+  text-decoration: none;
+  font-size: 0.75em;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-second-row a:hover {
+  color: gray;
+}
+
+.footer-third-row {
+  display: flex;
+  margin-top: 1em;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-third-row p {
+  text-decoration: none;
+  font-size: 0.75em;
+  color: black;
+  font-weight:300;
+}
+
+.container-image-catalogo {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95)),
+    url("../src/assets/background_ocean.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 25em;
+}
+
+.container-text-catalogo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 85%;
+  height: 25em;
+  margin: 0 auto;
+  color: white;
+}
+
+.container-text-catalogo h1 {
+  margin: 0.5em 0em;
+  font-weight: 600;
+  color: #ff6200;
+}
+
+.container-modals-info {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
