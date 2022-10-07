@@ -3,6 +3,17 @@ import Footer from "../components/Footer";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
+import i1 from "../assets/i1.svg";
+import i2 from "../assets/i2.png";
+import i3 from "../assets/i3.svg";
+import i4 from "../assets/i4.svg";
+import i5 from "../assets/i5.svg";
+import i6 from "../assets/i6.svg";
+import i7 from "../assets/i7.svg";
+import i8 from "../assets/i8.svg";
+import i9 from "../assets/i9.svg";
+import i10 from "../assets/i10.svg";
+
 export default function Catalogo() {
   const [show1, setShow1] = useState(false);
   const [show2, setShow2] = useState(false);
@@ -53,6 +64,7 @@ export default function Catalogo() {
         </div>
         <div className="container-modals">
           <div className="container-modals-info">
+            <h2>Nuestros servicios</h2>
             <p>
               Cada uno de los productos y servicios que desarrollamos desde
               Repsol cuenta con la máxima calidad, la mayor seguridad y la más
@@ -60,19 +72,140 @@ export default function Catalogo() {
             </p>
           </div>
           <div className="container-modals-main">
-
             <div className="modal-opener-1">
-
+              <button onClick={handleShow1}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i1} alt="Logo 1" />
+                  <h5>Química</h5>
+                  <p>
+                    Tu vida está llena de química. Productos cotidianos que
+                    mejoran tu calidad de vida, tu bienestar y, sobre todo, tu seguridad.
+                  </p>
+                </div>
+              </button>
             </div>
 
-            
-            <Button variant="primary" onClick={handleShow1}>
-              Launch static backdrop modal
-            </Button>
+            <div className="modal-opener-2">
+              <button onClick={handleShow2}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i5} alt="Logo 2" />
+                  <h5>Oil & Gas Trading</h5>
+                  <p>
+                    Suministramos, comercializamos y transportamos
+                    internacionalmente la materia prima más usada.
+                  </p>
+                </div>
+              </button>
+            </div>
 
-            <Button variant="primary" onClick={handleShow2}>
-              Launch static backdrop modal
-            </Button>
+            <div className="modal-opener-3">
+              <button onClick={handleShow3}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i3} alt="Logo 3" />
+                  <h5>Especialidades</h5>
+                  <p>
+                    Ponemos a tu disposición nuestros recursos, procesos e
+                    innovación para cubrir necesidades a través de nuestros
+                    productos.
+                  </p>
+                </div>
+              </button>
+            </div>
+
+            <div className="modal-opener-4">
+              <button onClick={handleShow4}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i4} alt="Logo 4" />
+                  <h5>Estaciones</h5>
+                  <p>
+                    Te damos muchas razones para que hagas un alto en el camino.
+                    Más de 4700 estaciones de servicio con servicios de alta
+                    calidad.
+                  </p>
+                </div>
+              </button>
+            </div>
+
+            <div className="modal-opener-5">
+              <button onClick={handleShow5}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i5} alt="Logo 5" />
+                  <h5>Butano y propano</h5>
+                  <p>
+                    Una solución energética tanto para el confort de tu hogar,
+                    la eficiencia de la cocina o el óptimo funcionamiento de tu
+                    negocio.
+                  </p>
+                </div>
+              </button>
+            </div>
+
+            <div className="modal-opener-6">
+              <button onClick={handleShow6}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i6} alt="Logo 6" />
+                  <h5>Gasóleo</h5>
+                  <p>
+                    Cubrimos un amplio abanico de sectores industriales en los
+                    que suministramos nuestras soluciones e innovadores productos.
+                  </p>
+                </div>
+              </button>
+            </div>
+
+            <div className="modal-opener-7">
+              <button onClick={handleShow7}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i7} alt="Logo 7" />
+                  <h5>Luz y gas</h5>
+                  <p>
+                    El servicio de electricidad y gas natural ideal para tu
+                    hogar. Empieza a ahorrar ahora mismo con la garantía de
+                    Repsol.
+                  </p>
+                </div>
+              </button>
+            </div>
+
+            <div className="modal-opener-8">
+              <button onClick={handleShow8}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i8} alt="Logo 8" />
+                  <h5>Aviación</h5>
+                  <p>
+                    Carburantes para las demandas más exigentes. Formación y
+                    asesoría técnica como complemento para nuestro servicio.
+                  </p>
+                </div>
+              </button>
+            </div>
+
+            <div className="modal-opener-9">
+              <button onClick={handleShow9}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i9} alt="Logo 9" />
+                  <h5>Asfaltos</h5>
+                  <p>
+                    Nuestras soluciones ofrecen las mejores infraestructuras a
+                    la sociedad con el respeto por el medio ambiente siempre
+                    presente.
+                  </p>
+                </div>
+              </button>
+            </div>
+
+            <div className="modal-opener-10">
+              <button onClick={handleShow10}>
+                <div className="modal-opener-body">
+                  <img className="modal-logo" src={i10} alt="Logo 10" />
+                  <h5>Lubricantes</h5>
+                  <p>
+                    Aplicamos nuestros conocimientos en la alta competición en
+                    todos los productos. Cuidamos tu motor al máximo.
+                  </p>
+                </div>
+              </button>
+            </div>
 
             {/* ------------------ Modals ------------------ */}
             {/* ------------------ Modal 1 ------------------ */}
@@ -84,7 +217,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal title</Modal.Title>
+                <Modal.Title>Química</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -107,7 +240,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Oil & Gas Trading</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -130,7 +263,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Especialidades</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -153,7 +286,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Estaciones</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -176,7 +309,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Butano y propano</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -199,7 +332,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Gasóleo</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -222,7 +355,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Luz y gas</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -245,7 +378,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Aviación</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -268,7 +401,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Asfaltos</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -291,7 +424,7 @@ export default function Catalogo() {
               keyboard={false}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal fffffffff</Modal.Title>
+                <Modal.Title>Lubricantes</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 I will not close if you click outside me. Don't even try to
@@ -304,8 +437,6 @@ export default function Catalogo() {
                 <Button variant="primary">Understood</Button>
               </Modal.Footer>
             </Modal>
-
-
           </div>
         </div>
       </div>
