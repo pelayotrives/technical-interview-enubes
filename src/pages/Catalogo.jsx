@@ -873,7 +873,7 @@ export default function Catalogo() {
             </div>
           </div>
 
-          <div className="gasoline">
+          <div className="gasoline" id="gasoline-4">
             <div className="gasoline-img">
               <img className="gasoline-placeholder" src={d2} alt="10 e+" />
             </div>

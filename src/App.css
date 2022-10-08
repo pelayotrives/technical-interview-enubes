@@ -469,6 +469,10 @@ html {
   width: 75%;
 }
 
+#gasoline-4 {
+  margin-bottom: 1.35em;
+}
+
 @media (max-width: 1100px) {
 
   .container-gasoline {
