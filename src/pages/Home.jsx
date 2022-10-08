@@ -55,9 +55,8 @@ export default function Home() {
           <div className="column-right">
             Campus es el símbolo corporativo de Repsol, una referencia
             arquitectónica a nivel mundial que refleja nuestra cultura y nuestra
-            evolución permanente. Nuestra sede corporativa es la confirmación
+            evolución permanente. <span className="text-display"> Nuestra sede corporativa es la confirmación
             del compromiso de Repsol con las personas, la sociedad y el planeta.
-            <span className="text-display">
             En estas instalaciones, más de 4.000 profesionales de todas las
             áreas y negocios trabajan cada día para mejorar la energía del
             futuro.
