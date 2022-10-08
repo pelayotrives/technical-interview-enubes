@@ -2,8 +2,12 @@ import React, { useState } from "react";
 import Footer from "../components/Footer";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-
 import { Link } from "react-router-dom";
+
+import g95 from "../assets/95.png";
+import g98 from "../assets/98.jpg";
+import d1 from "../assets/diesel1.jpg";
+import d2 from "../assets/diesel2.png";
 
 import i1 from "../assets/i1.svg";
 import i3 from "../assets/i3.svg";
@@ -792,6 +796,107 @@ export default function Catalogo() {
             </Modal>
           </div>
         </div>
+
+        <div className="container-gasoline">
+          <h2>Nuestros carburantes</h2>
+          <p>
+            Tenemos una amplia gama de carburantes que ofrecer a nuestros
+            clientes, siempre disponibles en nuestras estaciones de servicio,
+            optimizando la calidad y la eficiencia de cada combustible para
+            alargar al máximo su vida útil.
+          </p>
+        </div>
+
+        <div className="container-gasoline-cards">
+          <div className="gasoline">
+            <div className="gasoline-img">
+              <img className="gasoline-placeholder" src={g95} alt="95" />
+            </div>
+            <div className="gasoline-text">
+              <h5>Gasolina E5 95 - E10 95</h5>
+              <hr className="hr-gas" />
+              <p>
+                Hoy en día, la sin plomo 95 es una gasolina con los mismos
+                estándares de calidad que la de 98 octanos, por lo que si
+                nuestro coche es un turismo convencional la de 95 no solo es la
+                más recomendada, sino que además ayuda a reducir el consumo.
+                <span className="text-display">
+                  Limita las emisiones de partículas contaminantes. En el caso
+                  de Efitec, contamos con una versión premium de la 95 que
+                  proporciona mayor rendimiento.
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div className="gasoline">
+            <div className="gasoline-img">
+              <img className="gasoline-placeholder" src={g98} alt="98" />
+            </div>
+            <div className="gasoline-text">
+              <h5>Gasolina E5 98 - E10 98</h5>
+              <hr className="hr-gas" />
+              <p>
+                Para Repsol ofrecer productos respetuosos con el medio ambiente
+                es una prioridad, por eso la gasolina Efitec 98 es la que menor
+                cantidad de azufre posee en el mercado. El crecimiento de Repsol
+                se orienta a satisfacer las necesidades de los usuarios.{" "}
+                <span className="text-display">
+                  Esto, sin que se perjudique el entorno, la seguridad y el
+                  medio ambiente. Efitec 98 es la gasolina con el menor
+                  contenido de azufre en el mercado (menor a 50 ppm wt ó 0.005 %
+                  masa).
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div className="gasoline">
+            <div className="gasoline-img">
+              <img className="gasoline-placeholder" src={d1} alt="e+" />
+            </div>
+            <div className="gasoline-text">
+              <h5>Diesel e+</h5>
+              <hr className="hr-gas" />
+              <p>
+                Descubre todas sus ventajas y cómo actúa sobre los diferentes
+                sistemas del vehículo: En Repsol concentramos esfuerzos en la
+                formulación de nuestros combustibles. Ahora producimos el nuevo
+                Diésel e+.{" "}
+                <span className="text-display">
+                  Ofrece 4 ventajas diferenciales:
+                  <li>Máxima calidad y formulación exclusiva</li>
+                  <li>Mayor protección y vida a tu motor</li>
+                  <li>La garantía de una marca líder</li>
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div className="gasoline">
+            <div className="gasoline-img">
+              <img className="gasoline-placeholder" src={d2} alt="10 e+" />
+            </div>
+            <div className="gasoline-text">
+              <h5>Diesel 10 e+</h5>
+              <hr className="hr-gas" />
+              <p>
+                Una nueva forma de ver la conducción es posible. Aprovecha las
+                prestaciones máximas del motor, es el gasóleo de más alta gama
+                del mercado diseñado para todos los motores diésel,
+                especialmente los de última generación.{" "}
+                <span className="text-display">
+                  {" "}
+                  Gracias a un elevado número de Cetano se consigue:
+                  <li>Una ignición más rápida</li>
+                  <li>Mejor arranque en frío</li>
+                  <li>Más confort en la conducción</li>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="cta">
           <h3>¿Aún no tienes cuenta de cliente con nosotros?</h3>
           <div className="buttons-two-cta">
