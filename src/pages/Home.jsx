@@ -47,18 +47,21 @@ export default function Home() {
             En Repsol tenemos claro un objetivo: nuestro proyecto más importante
             es el mantenimiento de nuestro planeta. Queremos reducir las
             emisiones y el uso de combustibles fósiles para 2050, y cada día
-            estamos dando prueba de ello. Mejoramos las tecnologías de energías
+            estamos dando prueba de ello. <span className="text-display">Mejoramos las tecnologías de energías
             renovables, apostamos por propuestas ecológicas y subvencionamos un
             gran número de iniciativas sostenibles.
+            </span>
           </div>
           <div className="column-right">
             Campus es el símbolo corporativo de Repsol, una referencia
             arquitectónica a nivel mundial que refleja nuestra cultura y nuestra
             evolución permanente. Nuestra sede corporativa es la confirmación
             del compromiso de Repsol con las personas, la sociedad y el planeta.
+            <span className="text-display">
             En estas instalaciones, más de 4.000 profesionales de todas las
             áreas y negocios trabajan cada día para mejorar la energía del
             futuro.
+            </span>
           </div>
         </div>
         <div className="container-footer">
