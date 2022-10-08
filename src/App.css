@@ -493,6 +493,7 @@ html {
 
   .copyright {
     text-align: center;
+    margin: 0 auto;
   }
 
   .column-left, .column-right {
