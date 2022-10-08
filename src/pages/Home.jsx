@@ -3,6 +3,7 @@ import Button from "react-bootstrap/Button";
 import Cards from "../components/Cards";
 import CardsImages from "../components/Carousel";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -19,12 +20,8 @@ export default function Home() {
             </p>
           </div>
           <div className="container-buttons">
-            <Button className="button-cta" variant="outline-light">
-              Objetivos
-            </Button>
-            <Button className="button-cta" variant="outline-light">
-              Información
-            </Button>
+          <Button variant="outline-light" className="button-cta"><Link to={"/catalogo"} className="link-main">Objetivos</Link></Button>
+          <Button variant="outline-light" className="button-cta"><Link to={"/catalogo"} className="link-main">Información</Link></Button>
           </div>
         </div>
         <div className="cards-intro">
@@ -78,9 +75,7 @@ export default function Home() {
               </div>
             </div>
             <div className="container-footer-buttons">
-              <Button className="button-footer-cta" variant="outline-light">
-                ¡Escúchalo ahora!
-              </Button>
+            <Button variant="outline-light" className="button-footer-cta"><Link to={"/catalogo"} className="link-main">¡Escúchalo ahora!</Link></Button>
             </div>
           </div>
           <Footer/>

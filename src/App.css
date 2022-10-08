@@ -276,6 +276,7 @@ html {
   text-align: center;
   width: 40%;
   margin: 0 auto;
+  padding-top: 2em;
 }
 
 .container-modals-info h2 {
@@ -293,6 +294,7 @@ html {
   align-content: center;
   width: 75%;
   margin: 0 auto;
+  padding-bottom: 1em;
 }
 
 .modal-opener-1, .modal-opener-2, .modal-opener-3, .modal-opener-4, .modal-opener-5, .modal-opener-6, .modal-opener-7, .modal-opener-8, .modal-opener-9, .modal-opener-10 {
@@ -330,4 +332,38 @@ html {
 
 .modal-opener-body {
   padding: 1.3em;
+}
+
+.cta {
+  text-align: center;
+  padding: 2em;
+  background-color: #ff6200;
+}
+
+.cta h3 {
+  color: #FFFFFF;
+}
+
+.buttons-cta-one, .button-cta-two {
+  margin: 0.65em 1em;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.link-main {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.link-main:hover {
+  text-decoration: none;
+  color: #000000;
 }

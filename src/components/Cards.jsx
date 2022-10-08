@@ -5,6 +5,7 @@ import News from '../assets/news.jpg'
 import Events from '../assets/events.jpg'
 import Stocks from '../assets/stocks.jpg'
 import Info from '../assets/information.jpg'
+import { Link } from "react-router-dom";
 
 export default function Cards() {
   return (
@@ -18,7 +19,7 @@ export default function Cards() {
             <Card.Text>
                 Repsol e Impulsa Galicia
             </Card.Text>
-            <Button variant="outline-dark">Ver más</Button>
+            <Button variant="outline-dark"><Link to={"/catalogo"} className="link">Ver más</Link></Button>
           </Card.Body>
         </Card>
       </div>
@@ -31,7 +32,7 @@ export default function Cards() {
             <Card.Text>
                 Trading Statement 3T
             </Card.Text>
-            <Button variant="outline-dark">Ver más</Button>
+            <Button variant="outline-dark"><Link to={"/catalogo"} className="link">Ver más</Link></Button>
           </Card.Body>
         </Card>
       </div>
@@ -44,7 +45,7 @@ export default function Cards() {
             <Card.Text>
                 Informe de gestión intermedio
             </Card.Text>
-            <Button variant="outline-dark">Ver más</Button>
+            <Button variant="outline-dark"><Link to={"/catalogo"} className="link">Ver más</Link></Button>
           </Card.Body>
         </Card>
       </div>
@@ -57,7 +58,7 @@ export default function Cards() {
             <Card.Text>
               12.68%
             </Card.Text>
-            <Button variant="outline-dark">Ver más</Button>
+            <Button variant="outline-dark"><Link to={"/catalogo"} className="link">Ver más</Link></Button>
           </Card.Body>
         </Card>
       </div>
