@@ -309,7 +309,6 @@ html {
 .modal-opener-10 {
   width: 280px;
   padding: 0.55em;
-  color: black;
 }
 
 .modal-opener-1 img,
@@ -342,6 +341,7 @@ html {
 .modal-opener-10 h5 {
   margin-top: 0.5em;
   font-weight: 600;
+  color: black !important;
 }
 
 .modal-opener-1 p,
@@ -355,6 +355,7 @@ html {
 .modal-opener-9 p,
 .modal-opener-10 p {
   font-size: 0.9em;
+  color: black !important;
 }
 
 .modal-opener-1 button,
@@ -488,6 +489,10 @@ html {
   .second-row-links {
     margin-bottom: 1em;
     text-align: center;
+  }
+
+  .column-left, .column-right {
+    margin-bottom: 1.5em;
   }
 }
 
