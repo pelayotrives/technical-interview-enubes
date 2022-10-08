@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
           <div className="footer-third-row">
             <p>Repsol 2022 ©</p>
-            <img src={icon7} alt="Logo Rep" />
+            <img src={icon7} className="text-display" alt="Logo Rep" />
           </div>
         </div>
       </footer>
