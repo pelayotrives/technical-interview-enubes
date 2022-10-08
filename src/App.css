@@ -47,6 +47,7 @@ html {
 
 .container-cards {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   justify-items: center;
@@ -54,7 +55,7 @@ html {
   align-content: center;
   text-align: center;
   margin: 0 auto;
-  width: 75%;
+  width: 80%;
 }
 
 .cards-intro h2 {
@@ -75,6 +76,7 @@ html {
 .card-four {
   padding-right: 10px;
   padding-left: 10px;
+  margin-bottom: 2em;
 }
 
 .button-cta {
@@ -111,24 +113,21 @@ html {
   min-height: 500px;
 }
 
-.columns-text {
+.columns-text, .columns-text-footer {
   width: 74%;
+  padding-top: 2em;
+  padding-bottom: 3em;
   margin: 0 auto;
 }
 
-.column-right {
+.column-right, .column-right-footer {
   float: right;
   width: 45%;
 }
 
-.column-left {
+.column-left, .column-left-footer {
   display: inline-block;
   width: 45%;
-}
-
-.columns-text {
-  padding-top: 2em;
-  padding-bottom: 3em;
 }
 
 .container-footer {
@@ -210,6 +209,7 @@ html {
   align-content: center;
   margin: 1em 0em;
 }
+
 
 .footer-second-row a {
   text-decoration: none;
@@ -473,7 +473,36 @@ html {
   margin-bottom: 1.35em;
 }
 
+@media (max-width: 1075px) {
+  .footer-second-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 1em 0em;
+  }
+
+  .second-row-links {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+}
+
 @media (max-width: 1100px) {
+
+  .container-info-footer {
+    margin-top: 1.5em;
+  }
+
+  .container-footer-buttons {
+    margin-bottom: 3em;
+  }
+
+  .columns-text-footer {
+    width: 95%;
+  }
 
   .container-gasoline {
     text-align: center;

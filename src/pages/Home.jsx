@@ -64,12 +64,12 @@ export default function Home() {
         <div className="container-footer">
           <div className="container-info-footer">
             <h1>¿Todavía no has escuchado nuestros podcast?</h1>
-            <div className="columns-text">
-              <div className="column-left">
+            <div className="columns-text-footer">
+              <div className="column-left-footer">
                 #somosFUTURO es una webserie llena de episodios creados para
                 impulsar el talento de los más jóvenes de la industria.
               </div>
-              <div className="column-right">
+              <div className="column-right-footer">
                 Contamos con algunos de los divulgadores científicos más
                 prestigiosos del panorama científico de nuestro país.
               </div>
